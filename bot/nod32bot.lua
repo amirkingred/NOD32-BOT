@@ -255,58 +255,58 @@ sodu : @behrooZyaghi
 ]],
     help_text_realm = [[
 Realm Commands:
-
+ساخت گروه معمولی:
 !creategroup [Name]
 Create a group
-
+ساخت گروه اصلی ربات:
 !createrealm [Name]
 Create a realm
-
+تنظیم نام نام گروه:
 !setname [Name]
 Set realm name
-
+اضافه کردن توضیحات برای یکی از گرو ها
 !setabout [GroupID] [Text]
 Set a group's about text
-
+اضافه کردن قوانین یک گروه
 !setrules [GroupID] [Text]
 Set a group's rules
-
+قفل امکانات یک گروه
 !lock [GroupID] [setting]
 Lock a group's setting
-
+باز کردن امکانات یک گروه
 !unlock [GroupID] [setting]
 Unock a group's setting
-
+مشخصات افراد به صورت لیست
 !wholist
 Get a list of members in group/realm
-
+مشخصات افراد به صورت فایل تکست
 !who
 Get a file of members in group/realm
-
+نوع گروه
 !type
 Get group type
-
+حذف یکی از گرو ها
 !kill chat [GroupID]
 Kick all memebers and delete group
 
 !kill realm [RealmID]
 Kick all members and delete realm
-
+اضافه کردن ادمین
 !addadmin [id|username]
 Promote an admin by id OR username *Sudo only
-
+حذف ادمین
 !removeadmin [id|username]
 Demote an admin by id OR username *Sudo only
-
+لیست گرو های بات
 !list groups
 Get a list of all groups
-
+لیست گروه های مادر و اصلی بات
 !list realms
 Get a list of all realms
-
+ثبت اطلاعات
 !log
 Grt a logfile of current group or realm
-
+اطلاع رسانی
 !broadcast [text]
 !broadcast Hello !
 Send text to all groups
@@ -316,11 +316,11 @@ Only sudo users can run this command
 !bc 123456789 Hello !
 This command will send text to [group_id]
 
-ch: @Nod32team
+      ⊙_⊙
 
 ]],
     help_text = [[
-NOD32 Commands list :
+telejian Commands list :
  
 1-banhammer list ^
  
@@ -479,7 +479,7 @@ NOD32 Commands list :
 !res [username]
 در اوردن ایدی شخص مورد نظر
 
-!info 
+!info ❌
 مخشصات فرد مورد نظر
 
 !settings
@@ -517,9 +517,9 @@ NOD32 Commands list :
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 
-channel: @Nod32Team
-
-G00D LUCK ^_^
+👉brodcast for telejianbot🔥
+اطلاع رسانی ربات تله جیان🔥
+@telejian100
 ]]
    }
   serialize_to_file(config, './data/config.lua')
